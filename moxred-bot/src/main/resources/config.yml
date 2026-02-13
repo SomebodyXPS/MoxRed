@@ -1,0 +1,26 @@
+# MoxRed Bot - AI-Powered Server Management
+# Natural language command system with live server context
+
+# Discord Bot Token (get from Discord Developer Portal)
+# https://discord.com/developers/applications
+botToken: "YOUR_DISCORD_BOT_TOKEN"
+
+# Admin Role ID (users with this role can execute commands)
+# Right-click role in Discord > Copy Role ID
+adminRoleId: "YOUR_ADMIN_ROLE_ID"
+
+# AI Integration (Google Gemini 2.5 Flash)
+# Required for natural language processing
+ai:
+  # Enable AI-powered natural language processing
+  # This is the core feature of MoxRed
+  enabled: true
+  
+  # Google Gemini API Key
+  # Get from: https://aistudio.google.com/apikey
+  # Make sure Gemini 2.5 Flash is enabled in your API console
+  geminiApiKey: "YOUR_GEMINI_API_KEY"
+
+# Enable verbose logging for debugging
+# Set to true to see detailed AI processing logs
+verboseLogging: false
