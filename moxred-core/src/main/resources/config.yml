@@ -1,7 +1,0 @@
-# MoxRed Core Plugin Configuration
-# Secure execution engine for Minecraft
-
-# Features
-features:
-  enableWorkflowMode: true
-  enableRawConsole: false

@@ -1,7 +1,0 @@
-name: MoxRed-Core
-version: 1.0.0
-main: com.moxred.core.MoxRedCore
-api-version: '1.20'
-author: SomebodyXPS
-load: POSTWORLD
-description: Deterministic, Secure Execution Engine for Minecraft
