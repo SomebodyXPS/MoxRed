@@ -1,40 +1,25 @@
-# MoxRed License v1.0
+Apache License
 
-Copyright (c) 2026 SomebodyXPS
+Version 2.0, January 2004
 
-All rights reserved except as expressly granted below.
+http://www.apache.org/licenses/
 
-## Permissions
+Copyright 2026 SomebodyXPS
 
-You are permitted to:
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-* Use MoxRed for personal, educational, community, or commercial Minecraft servers.
-* Modify the source code for your own needs.
-* Compile and run modified versions.
-* Share or redistribute the original or modified source code.
+http://www.apache.org/licenses/LICENSE-2.0
 
-## Conditions
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
-Any redistribution of this project, whether modified or unmodified, must:
+---
 
-* Retain this license in full.
-* Retain all copyright notices.
-* Clearly state that the project is based on MoxRed.
-* Clearly document any modifications made.
+**IMPORTANT:** The complete Apache License 2.0 text must follow this header without modification. You can copy the official license text from:
 
-## Restrictions
-
-You may **not**:
-
-* Claim that you created the original MoxRed project.
-* Remove or replace the original copyright notice.
-* Present the original project as your own work.
-* Use the name "MoxRed" or "SomebodyXPS" in a way that falsely implies endorsement or authorship.
-
-Ownership of the original MoxRed project, its branding, identity, and original source code remains exclusively with SomebodyXPS.
-
-## Disclaimer
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
-
-IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
+https://www.apache.org/licenses/LICENSE-2.0.txt
