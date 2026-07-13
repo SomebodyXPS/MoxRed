@@ -49,27 +49,6 @@ To get MoxRed up and running or to explore its capabilities, refer to our detail
 
 ---
 
-## 🏗 Building from Source
-
-To build MoxRed yourself, ensure you have **Java 17+ (or Java 21/25)** and **Maven** installed.
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/SomebodyXPS/MoxRed.git
-   cd MoxRed
-   ```
-
-2. Build the parent project and all modules:
-   ```bash
-   mvn clean package
-   ```
-
-3. The compiled `.jar` binaries will be located under their respective target directories:
-   * **Plugin**: `moxred-core/target/MoxRed-Core-beta-1.0.0.jar`
-   * **Discord Bot**: `moxred-bot/target/MoxRed-Bot-beta-1.0.0.jar`
-
----
-
 ## 📝 License
 
 This project is open-source and licensed under the [MIT License](LICENSE). 
