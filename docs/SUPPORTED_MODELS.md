@@ -1,36 +1,48 @@
 # Supported AI Models
 
-MoxRed gives you the freedom to choose the "brain" behind your server assistant. You can plug in API keys from any of the major AI providers to power MoxRed. It supports any capable AI model of your choice.
+MoxRed is designed with high flexibility, allowing you to choose the "brain" behind your server assistant. Developed by **SomebodyXPS**, the bot's core architecture supports standard JSON payloads to interface with several world-class Large Language Models.
 
-## Available Providers
+---
 
-### 1. OpenAI
-A widely used AI provider, highly capable at understanding server context and Minecraft commands.
-- **Models:** `gpt-4o`, `gpt-4o-mini`
-- **Setup:** Use provider `openai` and enter your OpenAI API key in the bot's `config.yml`.
+## 🧠 Supported Providers & Models
 
-### 2. Google Gemini
-Fast and highly capable models from Google.
-- **Models:** `gemini-2.5-pro`, `gemini-2.5-flash`
-- **Setup:** Use provider `gemini` and enter your Google AI Studio API key in the bot's `config.yml`.
+You can choose from the following providers by configuring your `config.yml` file:
+
+### 1. Google Gemini (Recommended)
+Excellent reasoning, incredibly fast execution times, and unmatched pricing or free tier availability.
+* **Suggested Models**: `gemini-2.5-pro`, `gemini-2.5-flash`
+* **Configuration Setup**: Set provider to `gemini` and enter your Gemini API key.
+
+### 2. OpenAI
+Highly capable models for code and command generation with outstanding system prompt adherence.
+* **Suggested Models**: `gpt-4o`, `gpt-4o-mini`
+* **Configuration Setup**: Set provider to `openai` and enter your OpenAI API key.
 
 ### 3. Anthropic Claude
-Models from Anthropic, known for reasoning and conversational abilities.
-- **Models:** `claude-3.7-sonnet`, `claude-3.5-sonnet`
-- **Setup:** Use provider `claude` and enter your Anthropic API key in the bot's `config.yml`.
+Industry-leading models for conversational accuracy, complex coding, and reasoning tasks.
+* **Suggested Models**: `claude-3.7-sonnet`, `claude-3.5-sonnet`
+* **Configuration Setup**: Set provider to `claude` and enter your Anthropic API key.
 
-### 4. OpenRouter (Access to DeepSeek, Llama, and more)
-An excellent gateway to run open-source models or models from DeepSeek, Meta, and Qwen.
-- **Models:** `deepseek-chat`, `llama-3.3-70b`, `qwen2.5-72b`
-- **Setup:** Use provider `openrouter` and enter your OpenRouter API key in the bot's `config.yml`.
+### 4. OpenRouter
+A unified API gateway that allows you to run high-quality open-source models or models from DeepSeek, Meta, and Qwen.
+* **Suggested Models**: `deepseek-chat`, `llama-3.3-70b`, `qwen2.5-72b`
+* **Configuration Setup**: Set provider to `openrouter` and enter your OpenRouter API key.
 
-## How to Switch Models
-In your `MoxRed-Bot` configuration folder, open `config.yml` and locate the `ai` section:
+---
+
+## ⚙ How to Configure Your AI Brain
+
+In your `MoxRed-Bot` application directory, locate and open your `config.yml` file, then edit the `ai` section:
 
 ```yaml
 ai:
-  provider: "openai" # Change to your preferred provider
-  model: "gpt-4o" # Change to your preferred model
-  apiKey: "YOUR_API_KEY_HERE"
+  provider: "gemini"             # Options: "gemini", "openai", "claude", "openrouter"
+  model: "gemini-2.5-flash"      # Put your desired model identifier here
+  apiKey: "AI_STUDIO_API_KEY"   # Insert your official API key
 ```
-Restart your bot, and MoxRed will instantly switch to the new AI brain!
+
+Save the file and restart the Discord bot. MoxRed will dynamically reload the Advanced AI Service and utilize your chosen model on subsequent user prompts.
+
+---
+
+Designed and developed by **[SomebodyXPS](https://github.com/SomebodyXPS)**.
