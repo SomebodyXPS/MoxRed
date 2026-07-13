@@ -10,7 +10,6 @@ MoxRed operates entirely via Discord chat and slash commands, eliminating the ne
 
 1. **Mentioning the Bot**: Send a direct question or action:
    > `@MoxRed check the server health and tell me the current TPS.`
-2. **Slash Commands**: Use quick, built-in commands like `/status` or `/ask`.
 
 ---
 

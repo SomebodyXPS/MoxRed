@@ -15,7 +15,7 @@ Setting up MoxRed is easy! MoxRed is an open-source Minecraft server assistant c
 
 ## Step 1: Install the Minecraft Plugin
 
-1. Download the latest `MoxRed-Core-beta-1.0.0.jar` from the [GitHub Releases]() page, or [build it from source](../README.md#building-from-source).
+1. Download the latest `MoxRed-Core-beta-1.0.0.jar` from the [GitHub Releases]() page.
 2. Place the `.jar` file into your Minecraft server's `plugins/` folder.
 3. Start or restart your Minecraft server to let the plugin load and generate its default configuration.
 4. Open the generated file `/plugins/MoxRed-Core/config.yml` on your server.
