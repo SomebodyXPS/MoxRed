@@ -15,7 +15,7 @@ Setting up MoxRed is easy! MoxRed is an open-source Minecraft server assistant c
 
 ## Step 1: Install the Minecraft Plugin
 
-1. Download the latest `MoxRed-Core-beta-1.0.0.jar` from the [GitHub Releases]() page.
+1. Download the latest `MoxRed-Core-beta-1.0.0.jar` from the [GitHub Releases](https://github.com/SomebodyXPS/MoxRed/releases) page.
 2. Place the `.jar` file into your Minecraft server's `plugins/` folder.
 3. Start or restart your Minecraft server to let the plugin load and generate its default configuration.
 4. Open the generated file `/plugins/MoxRed-Core/config.yml` on your server.
@@ -25,7 +25,7 @@ Setting up MoxRed is easy! MoxRed is an open-source Minecraft server assistant c
 
 ## Step 2: Setup the Discord Bot
 
-1. Download the latest `MoxRed-Bot-beta-1.0.0.jar` from the [GitHub Releases]() page.
+1. Download the latest `MoxRed-Bot-beta-1.0.0.jar` from the [GitHub Releases](https://github.com/SomebodyXPS/MoxRed/releases) page.
 2. Create a clean folder on your computer or server host (e.g., `moxred-bot/`) and place the `.jar` there.
 3. Run the bot once to generate the default configuration:
    ```bash
